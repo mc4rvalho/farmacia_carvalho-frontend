@@ -1,8 +1,12 @@
-import './App.css'
-import { Home } from './pages/home/Home'
+import "./App.css"
+import { Navbar } from "./components/navbar/Navbar"
+import { Home } from "./pages/home/Home"
 
 export function App() {
   return (
-    <Home />
+    <>
+      <Navbar />
+      <Home />
+    </>
   )
 }

@@ -12,8 +12,8 @@ export function Navbar() {
           <div className="flex gap-4">
             Criar Produto 
             Listar Produtos 
-            Cadastrar Categoria 
-            <Link to='/categorias' className="hover:underline">Listar Categorias</Link>
+            <Link to='/cadastrarcategoria' className="hover:underline">Cadastrar Categoria</Link>
+            <Link to='/categorias' className="hover:underline">Categorias</Link>
           </div>
         </div>
       </div>

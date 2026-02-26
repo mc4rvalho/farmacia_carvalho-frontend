@@ -79,7 +79,7 @@ export function FormCategoria() {
             type="text"
             placeholder="Descreva aqui sua categoria"
             name="descricao"
-            className="rounded border-2 border-lime-600 p-2 focus:border-lime-800 focus:ring-1 focus:ring-lime-800 focus:outline-none"
+            className="rounded border-2 border-cyan-300 p-2 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 focus:outline-none"
             value={categoria.descricao || ""}
             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
           />

@@ -10,7 +10,10 @@ export function Navbar() {
           </Link>
 
           <div className="flex gap-4">
-            Criar Produto Listar Produtos Cadastrar Categoria Listar Categorias
+            Criar Produto 
+            Listar Produtos 
+            <Link to='/cadastrarcategoria' className="hover:underline">Cadastrar Categoria</Link>
+            <Link to='/categorias' className="hover:underline">Categorias</Link>
           </div>
         </div>
       </div>
